@@ -1,10 +1,13 @@
 import random
+firstnames = ['John', 'Paul', 'George', 'Ringo']
+secondnames = ['Lennon', 'McCartney', 'Harrison', 'Starr']
+thirdnames = ['Mick', 'Keith', 'Charlie', 'Ronnie']
+fourthnames = ['Jagger', 'Richards', 'Watts', 'Wood']
+Mainlist = firstnames + secondnames + thirdnames + fourthnames
+print(Mainlist)
 
-# List of members
-names = ['alice', 'bob', 'cathy', 'doug', 'evan', 'frank', 'gary', 'helen', 'ian', 'jill']
+# Select 3 random winners
+winners = random.sample(Mainlist, 3)
 
-# Select a random winner
-winner = random.choice(names)
-
-# Print the winner
-print(f"The winner is: {winner}")
+# Print the winners
+print(f"The winners are: {', '.join(winners)}")
