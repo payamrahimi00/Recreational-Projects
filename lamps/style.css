@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lamps {
+    width: 200px;
+    height: 200px;
+}
+.Vertical_line {
+    border: 6px solid black;
+    height: 80vh;
+    border-radius: 10px;
+
+}
+.Switches{
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly ;
+
+}
+.Switches> button{
+   width: 90px;
+   margin: 8px;
+   border-radius: 8px;
+}
+#Switch {
+    background-color: #00ff04;
+}
+#Secondry_Switch {
+    background-color: #ff230f;
+}
+#Default {
+    background-color: #12d7f1;
+}
