@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height: 100vh;
+}
+.login_form{
+    width: 600px;
+    height: 600px;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size: 3.6rem;
+}
+
+.login_form>input {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+
+.login_form>button{
+    color:burlywood;
+    background-color:green;
+    width: 80px;
+    height: 45px;
+    font-size: 2rem;
+    border: 2px solid rgb(179, 255, 0);
+    border-radius: 5px;
+}
+.login_form>button:hover{
+     color: #000;
+     cursor:pointer;
+     background-color:rgb(179, 255, 0);;
+     border: 2px solid green;
+     border-radius: 5px;
+}
+#username {
+    width: 500px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#password {
+    width: 500px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#username::placeholder{
+    color: rgb(174, 174, 174);
+    font-size: 3.6rem;
+    text-align: center;
+}
+#password::placeholder{
+    color: rgb(174, 174, 174);
+    font-size: 3.6rem;
+    text-align: center;
+}
+#beautiful-rectangle {
+  width: 200px; /* Set the width */
+  height: 150px; /* Set the height */
+  background-color: #6a05ad; /* A pleasing background color */
+  border-radius: 10px; /* Slightly rounded corners for a softer look */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* A subtle shadow for depth */
+  margin: 20px; /* Add some margin for spacing */
+  display: flex; /* Use flexbox for potential content alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  color: white; /* Text color if content is added */
+  font-family: sans-serif; /* A clean font */
+  font-size: 1.2em; /* Adjust font size */
+}
+label {
+    display: none;
+}
