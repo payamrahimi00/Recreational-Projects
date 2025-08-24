@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+<div class="login_form">
+    <input type="text" name="username" id="username" minlength="12" placeholder="USERNAME" onblur="correctUserkeydown()"
+    required >
+
+    <span class="Event">Charachter must grater than 12 </span>
+
+    <input type="password" name="pass" id="password" minlength="8" placeholder="PASSWORD"
+    onblur="correctPasskeydown()"
+    required>
+
+    <span class="Event">Your password is wrong</span>
+
+
+    <button onclick="Login()" id="Login_btn" type="submit">LOGIN</button>
+</div>
+
+<div id="beautiful-rectangle"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
